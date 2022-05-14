@@ -1,0 +1,36 @@
+{
+  "name": "astro-adapter-fastify",
+  "description": "Deploy your Astro site to a Fastify server",
+  "version": "0.1.0",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "author": "Zachary Kuhn <zac@zacharykuhn.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zachary-kuhn/astro-adapter-fastify.git"
+  },
+  "bugs": "https://github.com/zachary-kuhn/astro-adapter-fastify/issues",
+  "keywords": [
+    "astro",
+    "fastify"
+  ],
+  "files": [
+    "./dist/"
+  ],
+  "exports": {
+    ".": "./dist/index.js",
+    "./server.js": "./dist/server.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@astrojs/webapi": "^0.11.1"
+  },
+  "devDependencies": {
+    "astro": "^1.0.0-beta.27",
+    "fastify": "^3.29.0"
+  }
+}
