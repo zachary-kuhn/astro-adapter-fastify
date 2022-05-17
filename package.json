@@ -1,7 +1,7 @@
 {
   "name": "astro-adapter-fastify",
   "description": "Deploy your Astro site to a Fastify server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "types": "./dist/index.d.ts",
   "author": "Zachary Kuhn <zac@zacharykuhn.com>",
